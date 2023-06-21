@@ -1,0 +1,69 @@
+.App {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+form {
+  margin-bottom: 10px;
+}
+
+input {
+  margin-right: 10px;
+  padding: 5px;
+}
+
+button {
+  margin-right: 10px;
+  padding: 5px 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+.item-list {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  /* display: flex; */
+  flex-wrap: wrap;
+}
+
+.item-list li {
+  /* display: inline-flex; */
+  align-items: center;
+  list-style: none;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.edit-button {
+  margin-right: 5px;
+  background-color: #405975;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  /* display: inline-flex; */
+  align-items: center;
+  gap: 5px;
+}
+.delete-button {
+  margin-right: 5px;
+  background-color: #754048;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  /* display: inline-flex; */
+  align-items: center;
+  gap: 5px;
+}
